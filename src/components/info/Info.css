@@ -1,0 +1,28 @@
+.info-container{
+   width: 100%;
+   height: 300px;
+   background-color: white;
+   color: black;
+   margin-bottom: 100vh; /* para dar el efecto de alfombra con el footer */
+}
+
+.info{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;/* sin esto no toma el align-items */
+}
+
+@media only screen and (max-width: 960px){
+
+   .info-container{
+      width: 100%;
+      height: 200%;
+   }
+
+   .info > h1 {
+      text-align: center;
+      font-size: 25px;
+      padding: 30px;
+   }
+}

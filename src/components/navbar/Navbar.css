@@ -1,0 +1,48 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  padding-left: 50px;
+  font-size: 20px;
+  z-index: 1;
+
+  display: flex;
+}
+
+.scrolling {
+  background-color: black;
+  transition: all 0.5s ease;
+}
+
+.navbar-logo {
+  height: 65px;
+  line-height: 80px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+
+  margin: 0 auto;
+  padding-bottom: 4px;
+  border-bottom: 4px solid transparent;
+}
+
+.navbar-logo:hover {
+  border-color: white;
+  transition: all 0.3 ease-out;
+}
+
+.sns-link {
+  width: 90%;
+  line-height: 80px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.sns-link > a {
+  margin: 0 10px 0 25px;
+}
+.fas {
+  line-height: 80px;
+}

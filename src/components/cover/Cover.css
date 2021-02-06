@@ -1,0 +1,42 @@
+.cover-container{
+   height: 100vh;
+   width: 100%;
+   object-fit: contain; /* para q quepa completo */
+   box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+   display: flex;
+   flex-direction: column; /*columna*/
+   justify-content: center;/*centro vertical de la columna*/
+   align-items: center;/*alineacion horizontal tel texto*/
+}
+.video{
+   object-fit: cover; /*para q ocupe el 100x100*/
+   width: 100%;
+   height: 100vh; /*igual q el contenedor*/
+   position: absolute;
+   z-index: -1;/*para q el video se situe por debajo del container y se vea la opacidad q di con boxshadow*/
+}
+
+.cover-container > h1{
+   color: white;
+   font-size: 100px;
+}
+
+.cover-container > p {
+   margin-top: 8px;
+   color: white;
+   font-size: 32px;
+}
+
+@media screen and (max-width: 960px){
+
+   .cover-container > h1{
+      font-size: 70px;
+      text-align:  center;
+   }
+
+   .cover-container > p {
+      text-align: center;
+      font-size: 22px;
+      width: 85%;
+   }
+}
