@@ -4,6 +4,8 @@
    background-color: white;
    color: black;
    margin-bottom: 100vh; /* para dar el efecto de alfombra con el footer */
+
+   overflow-x: hidden; 
 }
 
 .info{

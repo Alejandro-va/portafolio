@@ -9,6 +9,7 @@
    bottom: 0; /* final de la pag */
    left: 0;
    /* este siempre en la misma posicin y por debajo de los otros contenedores, voy a ir a info.css y le voy a dar un margin bottom de 100vh */
+
 }
 
 .footer-info{

@@ -7,6 +7,8 @@
    flex-direction: column; /*columna*/
    justify-content: center;/*centro vertical de la columna*/
    align-items: center;/*alineacion horizontal tel texto*/
+
+   overflow-x: hidden; 
 }
 .video{
    object-fit: cover; /*para q ocupe el 100x100*/
@@ -18,7 +20,7 @@
 
 .cover-container > h1{
    color: white;
-   font-size: 100px;
+   font-size: 5rem;
 }
 
 .cover-container > p {
@@ -30,7 +32,7 @@
 @media screen and (max-width: 960px){
 
    .cover-container > h1{
-      font-size: 70px;
+      font-size: 3.5rem;
       text-align:  center;
    }
 
